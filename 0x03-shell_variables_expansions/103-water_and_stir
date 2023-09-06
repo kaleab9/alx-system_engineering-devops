@@ -1,0 +1,4 @@
+#!/bin/bash
+result=$(echo "$WATER + $STIR" | tr -dc '[:alnum:]')
+echo $result | rev
+
